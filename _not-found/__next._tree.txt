@@ -1,4 +1,4 @@
 :HL["/conjuntos-app-demo/_next/static/chunks/3q23_jpl8j_go.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"dbYYuWPWDOVYDC3dtBZ1N","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"hWgpv1xD7KDBKBioViqxU","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

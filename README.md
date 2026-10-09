@@ -22,7 +22,7 @@
 
 Una plataforma para **administrar conjuntos residenciales privados en Ecuador**: alícuotas, cobranza, garita, reservas, solicitudes y asambleas, con una interfaz para cada perfil (administración, directiva, contador, guardia, propietario e inquilino).
 
-El demo recrea el conjunto piloto **Jardines de Carcelén**, una urbanización de 120 casas en la Panamericana Norte, en Quito, con sus calles Canelos, Las Palmas, Ficus y Arupo, sus áreas comunales y un 15 % de unidades en mora. **Todo es interactivo**: puedes aprobar pagos, emitir expensas, restringir servicios, crear visitas con QR o votar en la asamblea. Los cambios se guardan solo en tu navegador, y el botón **Reiniciar** vuelve todo al estado inicial.
+El demo recrea el conjunto piloto **Jardines de Carcelén**, una urbanización de 120 casas en la Panamericana Norte, en Quito, organizada en **4 etapas (A, B, C y D)**, una por calle (Canelos, Las Palmas, Ficus y Arupo), con sus áreas comunales y un 15 % de unidades en mora. **Todo es interactivo**: puedes aprobar pagos, emitir expensas, restringir servicios, crear visitas con QR o votar en la asamblea. Los cambios se guardan solo en tu navegador, y el botón **Reiniciar** vuelve todo al estado inicial.
 
 > Todos los datos son ficticios: nombres, cédulas, placas, RUC y tasas de interés.
 
@@ -36,17 +36,17 @@ El demo recrea el conjunto piloto **Jardines de Carcelén**, una urbanización d
 
 ## Pruébalo en 2 minutos
 
-1. Entra como **Carlos Mendoza** (casa F‑12, en mora). Verás su deuda, la notificación formal y que no puede reservar el gimnasio.
+1. Entra como **Carlos Mendoza** (casa C‑12, en mora). Verás su deuda, la notificación formal y que no puede reservar el gimnasio.
 2. En **Pagar**, sube un comprobante (el archivo no sale de tu navegador).
 3. Cambia a **Patricio Ortiz** (contador) y apruébalo en **Pagos**. Las restricciones de Carlos **se levantan en el acto** y su casa queda habilitada para votar.
-4. Como **María Fernanda** (administradora), en **Cartera**, intenta restringir el *agua* de una casa. El sistema no lo permite. Intenta restringir la casa A‑01, cuya notificación tiene solo 2 días; tampoco se puede. Pulsa **+6 días** en la barra superior y vuelve a intentarlo.
+4. Como **María Fernanda** (administradora), en **Cartera**, intenta restringir el *agua* de una casa. El sistema no lo permite. Intenta restringir la casa con la notificación N.º 43, emitida hace solo 2 días: tampoco se puede. Pulsa **+6 días** en la barra superior y vuelve a intentarlo.
 5. Como **Ana Pérez**, crea una visita; luego entra como **Luis** (guardia) y regístrala con el PIN.
 
 ## Lo que hace
 
 | Módulo | Qué se puede hacer en el demo |
 |---|---|
-| **Dashboard** | Recaudado vs. emitido, % de morosidad, cartera a 30/60/90+ días, bancos, egresos; recaudación de 12 meses y top 10 de unidades morosas (con vista de tabla y exportación a Excel). |
+| **Dashboard** | Resumen por etapa (A–D), recaudado vs. emitido, % de morosidad, cartera a 30/60/90+ días, bancos, egresos; recaudación de 12 meses y top 10 de unidades morosas (con vista de tabla y exportación a Excel). |
 | **Expensas** | Presupuesto anual por rubros y emisión mensual por % de alícuota. La suma cuadra al centavo y la emisión es idempotente. |
 | **Pagos** | Bandeja de comprobantes, aprobar o rechazar con motivo, conciliación bancaria con sugerencias, recibos secuenciales y pagos en efectivo. |
 | **Cartera y mora** | Interés diario por tramos de tasa, notificación formal con constancias, plazo de 5 días, restricciones, liquidaciones con alerta de 30 días y publicación mensual sin nombres. |
