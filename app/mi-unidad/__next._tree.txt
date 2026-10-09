@@ -1,0 +1,7 @@
+:HL["/conjuntos-app-demo/_next/static/chunks/3q23_jpl8j_go.css","style"]
+:HL["/conjuntos-app-demo/_next/static/media/89ea96820aa96980-s.p.0hs6q6udzld4a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/conjuntos-app-demo/_next/static/media/ed5f1f9bced69653-s.p.2li_3lqay9qjq.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":"mi-unidad","h":96,"c":"$Q3"}]]
+1:[["children",{"s":"app","h":96,"c":"$Q2"}]]
+0:{"b":"dbYYuWPWDOVYDC3dtBZ1N","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
